@@ -1,0 +1,3 @@
+#pid: identifica il codice del processo in esecuzione 
+#user: identifica quale utente ha avviato il processo in corso
+#command: identifica il nome del processo in esecuzione 
