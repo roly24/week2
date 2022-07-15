@@ -33,8 +33,9 @@ int main ()
 		printf("Inserisci in maiuscolo la tua scelta\n");
 		break;
 	}
-	}while ( scelta != 'A' || scelta != 'B' || scelta !='C');//ho aggiunto il do while per far iniziare di nuovo il menu nel caso non vengano inserite la scelta proposte
-
+	}while ( scelta != 'A' || scelta != 'B' || scelta !='C');
+	/*ho effettuato il do while per far iniziare di nuovo il menu nel caso non vengano inserite la scelta proposte
+	perchè senno dava il problema di non far andare avanti il programma*/
 	return 0;
 
 }
@@ -67,7 +68,7 @@ void dividi ()
 {
         float a,b = 0; //qui ho cambiato l'int con il float perche è una divisione
         printf ("Inserisci il numeratore:");
-        scanf ("%f", &a);
+        scanf ("%f", &a);//ho effettuato la scelta del %f perche il programma non leggeva correttamente i numeri inseriti
 	printf ("Inserisci il denumeratore:");
         scanf ("%f", &b);
 
